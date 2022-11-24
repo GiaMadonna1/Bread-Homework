@@ -1,0 +1,24 @@
+{
+  "name": "bread-homework",
+  "version": "1.0.0",
+  "description": "Bread Project from the beginning so I can get extra practice",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiaMadonna1/Bread-Homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiaMadonna1/Bread-Homework/issues"
+  },
+  "homepage": "https://github.com/GiaMadonna1/Bread-Homework#readme"
+}
