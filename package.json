@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/GiaMadonna1/Bread-Homework/issues"
   },
-  "homepage": "https://github.com/GiaMadonna1/Bread-Homework#readme"
+  "homepage": "https://github.com/GiaMadonna1/Bread-Homework#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
