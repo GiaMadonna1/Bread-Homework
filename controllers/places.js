@@ -6,13 +6,13 @@ router.get('/', (req,res) => {
         city: 'Seattle',
         state: 'WA',
         cuisines: 'Chicken, kountry fried',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/kountryfriedfish.avif'
     }, {
         name: 'Sleepy Beef',
         city: 'Pheonix',
         state: 'AZ',
         cuisines: 'Coffee, Bakery',
-        pic: 'https://placekitten.com/250/250'
+        pic: '/images/goodbeef.avif'
     }]
     res.render ('places/index', {places})
 })
