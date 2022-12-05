@@ -11,13 +11,13 @@ function Def (html) {
             <body>
                 <nav>
                     <ul>
-                        <li key={Def.children}>
+                        <li>
                             <a href='/'> Home </a>
                         </li>
-                        <li key={Def.in}>
+                        <li>
                             <a href='/places'> Places </a>
                         </li>
-                        <li key={Def.id}>
+                        <li>
                             <a href='/places/new'> Add Place </a>
                         </li>
                     </ul>
