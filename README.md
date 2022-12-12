@@ -1,4 +1,11 @@
 # Bread-Homework
-Bread Project from the beginning so I can get extra practice
 
 REST-rant is an app where users can review restaurants.
+
+Technologies Used:
+-CSS Framework: Bootstrap
+-Stack: MongoDB, Express, Node.js
+-SSR: JSX (React)
+
+
+
