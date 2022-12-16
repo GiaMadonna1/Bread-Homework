@@ -48,6 +48,7 @@ function show (data) {
                 Serving {data.place.cuisines}
               </h4>
               <br />
+              <h2></h2>
               <a href={`/places/${data.place.id}/edit`} className="btn btn-warning">
                 Edit
               </a>{` `}
@@ -58,6 +59,28 @@ function show (data) {
               </form>
               </div>
             </div>
+                <h2> Comments </h2>
+                {comments}
+                    <h3> Wanna Rant or Rave? </h3>
+                    <form action={`/places/${data.place.id}/comment`} method='POST'>
+                        <div className='form-group col-sm-2'>
+                            <label htmlFor='author'> Author </label>
+                            <input className='form-control' id= 'author' name= 'author' required></input>
+                        </div>
+                        <div className='form-group col-sm-4'>
+                            <label htmlFor='sRating'> Star Rating </label>
+                            <input className='form-control' id= 'starRating' name='sRating' required></input>
+                        </div>
+                        <div className='form-group col-sm-6'>
+                            <label htmlFor='rant'> Getting Something Off your Chest? </label>
+                            <input className='form-control' type='checkbox' value='Rant?' id='rant' name='rant'></input>
+                        </div>
+                        <div className='form-group col-sm-8'>
+                            <label htmlFor='content'> Type Review Here </label>
+                            <input className='form-control' id='content' name='content'></input>
+                        </div>
+                        <input className="btn btn-primary" type="submit" value="Add Review" />
+                    </form>
         </main>
         </Def>
     )
